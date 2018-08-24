@@ -11,9 +11,9 @@ body .slide_wrapper > .slide { justify-content: flex-start !important; }
   border-bottom: .65rem solid #ed234b;
   background-image: url(https://cdn.www.fastcampus.co.kr/wp-content/uploads/2017/11/fastcampus_logo_positive-1.png);
   background-repeat: no-repeat;
-  background-position: 2rem 42rem;
+  background-position: 2rem 42.5rem;
   background-size: auto 4rem;
-  padding: 4rem !important;
+  padding: 3rem 4rem !important;
   vertical-align: top !important
 }
 .slide_page {
@@ -26,29 +26,28 @@ body .slide_wrapper > .slide { justify-content: flex-start !important; }
   display: flex !important;
   justify-conent: center;
   align-items: center;
-  width: 50rem !important;
+  width: 70rem !important;
   height: 100% !important;
   margin: 0 auto;
-  padding-top: 3rem;
   vertical-align: middle;
 }
 .slide_bg_img {
-  height: 30rem !important;
+  height: 45rem !important;
   opacity: 1 !important;
   background-size: contain !important;
 }
 .slide_footer {
-  right: 15rem !important;
-  left: 15rem !important;
-  bottom: 1rem !important;
+  right: 18rem !important;
+  left: 18rem !important;
+  bottom: 1.5rem !important;
   color: #888 !important;
-  font-size: 1.5rem !important;
+  font-size: 1.3rem !important;
   text-align: center !important;
 }
 
-.slide h1 { color: #333 !important; font-size: 5.4rem !important; font-weight: 500; }
-.slide h2 { font-size: 4.6rem !important; font-weight: 500; }
-.slide h3 { margin-bottom: 3rem; font-size: 3.8rem !important; font-weight: 500; }
+.slide h1 { color: #333 !important; font-size: 5.0rem !important; font-weight: 500; }
+.slide h2 { font-size: 4.4rem !important; font-weight: 500; }
+.slide h3 { margin-bottom: 2.5rem; font-size: 3.8rem !important; font-weight: 500; }
 .slide ul, .slide ol { margin: .5rem 0 !important; padding-left: 3rem; }
 .slide ul ul, .slide ol ul { font-size: 0.85em; }
 .slide pre { margin: 1rem 0 !important; }
