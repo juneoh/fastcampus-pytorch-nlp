@@ -8,9 +8,11 @@ body .slide_wrapper > .slide { justify-content: flex-start !important; }
   font-family: helvetica, "Noto Sans CJK KR";
   font-size: 2.4rem;
   border-top: .65rem solid transparent;
-  border-bottom: .65rem solid #7DC242;
+  border-bottom: .65rem solid #ed234b;
+  background-image: url(https://cdn.www.fastcampus.co.kr/wp-content/uploads/2017/11/fastcampus_logo_positive-1.png);
   background-repeat: no-repeat;
-  background-position: 3rem 40.5rem;
+  background-position: 2rem 42rem;
+  background-size: auto 4rem;
   padding: 4rem !important;
   vertical-align: top !important
 }
@@ -76,7 +78,7 @@ body .slide_wrapper > .slide { justify-content: flex-start !important; }
   right: -50%;
   width: 100%;
   height: 50rem;
-  background-color: #7DC242;
+  background-color: #ed234b;
 }
 .slide_wrapper[data-template~="section"] > .slide::after{
   counter-increment: section;
