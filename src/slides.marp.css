@@ -8,7 +8,7 @@ body .slide_wrapper > .slide { justify-content: flex-start !important; }
 }
 .slide {
   font-family: "Spoqa Han Sans", sans-serif;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   border-bottom: .65rem solid #ed234b;
   background-image: url(https://cdn.www.fastcampus.co.kr/wp-content/uploads/2017/11/fastcampus_logo_positive-1.png);
   background-repeat: no-repeat;
@@ -43,18 +43,20 @@ body .slide_wrapper > .slide { justify-content: flex-start !important; }
 .slide ul ul, .slide ol ul { font-size: 0.9em; }
 .slide pre { margin: 1rem 0 !important; }
 .slide pre code { font-size: 1.8rem !important; white-space: pre-wrap !important; }
-.slide img[alt~="height"] { width: auto !important; height: 25rem !important; }
+.slide img[alt~="small"] { width: auto !important; height: 22rem !important; }
+.slide img[alt~="medium"] { width: auto !important; height: 28rem !important; }
+.slide img[alt~="large"] { width: auto !important; height: 40rem !important; }
 .slide img[alt~="left"] {
   display: block !important;
   width: 25rem !important;
-  height: auto;
+  height: auto !important;
   margin-right: 4rem !important;
   float: left;
 }
 .slide img[alt~="right"] {
   display: block !important;
   width: 25rem !important;
-  height: auto;
+  height: auto !important;
   margin-left: 4rem !important;
   float: right;
 }
