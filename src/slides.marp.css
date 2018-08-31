@@ -1,3 +1,5 @@
+@import url(http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
 body { counter-reset: section; }
 body .slide_wrapper > .slide { justify-content: flex-start !important; }
 
@@ -5,13 +7,12 @@ body .slide_wrapper > .slide { justify-content: flex-start !important; }
   border: 0px solid #fff;
 }
 .slide {
-  font-family: helvetica, "Noto Sans CJK KR";
+  font-family: "Spoqa Han Sans", sans-serif;
   font-size: 2.4rem;
-  border-top: .65rem solid transparent;
   border-bottom: .65rem solid #ed234b;
   background-image: url(https://cdn.www.fastcampus.co.kr/wp-content/uploads/2017/11/fastcampus_logo_positive-1.png);
   background-repeat: no-repeat;
-  background-position: 2rem 42.5rem;
+  background-position: 2rem 43rem;
   background-size: auto 4rem;
   padding: 3rem 4rem !important;
   vertical-align: top !important
@@ -22,24 +23,13 @@ body .slide_wrapper > .slide { justify-content: flex-start !important; }
   color: #888 !important;
   font-size: 1.5rem !important;
 }
-.slide_bg {
-  display: flex !important;
-  justify-conent: center;
-  align-items: center;
-  width: 70rem !important;
-  height: 100% !important;
-  margin: 0 auto;
-  vertical-align: middle;
-}
 .slide_bg_img {
-  height: 45rem !important;
   opacity: 1 !important;
-  background-size: contain !important;
 }
 .slide_footer {
   right: 18rem !important;
   left: 18rem !important;
-  bottom: 1.5rem !important;
+  bottom: 1.9rem !important;
   color: #888 !important;
   font-size: 1.3rem !important;
   text-align: center !important;
@@ -48,15 +38,31 @@ body .slide_wrapper > .slide { justify-content: flex-start !important; }
 .slide h1 { color: #333 !important; font-size: 5.0rem !important; font-weight: 500; }
 .slide h2 { font-size: 4.4rem !important; font-weight: 500; }
 .slide h3 { margin-bottom: 2.5rem; font-size: 3.8rem !important; font-weight: 500; }
+.slide h4 { margin-bottom: 2.5rem; font-size: 1rem; }
 .slide ul, .slide ol { margin: .5rem 0 !important; padding-left: 3rem; }
-.slide ul ul, .slide ol ul { font-size: 0.85em; }
+.slide ul ul, .slide ol ul { font-size: 0.9em; }
 .slide pre { margin: 1rem 0 !important; }
-.slide pre code { font-size: 1.5rem !important; white-space: pre-wrap !important; }
+.slide pre code { font-size: 1.8rem !important; white-space: pre-wrap !important; }
 .slide img[alt~="height"] { width: auto !important; height: 25rem !important; }
+.slide img[alt~="left"] {
+  display: block !important;
+  width: 25rem !important;
+  height: auto;
+  margin-right: 4rem !important;
+  float: left;
+}
+.slide img[alt~="right"] {
+  display: block !important;
+  width: 25rem !important;
+  height: auto;
+  margin-left: 4rem !important;
+  float: right;
+}
+
 
 .slide_wrapper:first-child > .slide,
 .slide_wrapper[data-template~="center"] > .slide {
-  padding-top: 2rem !important;
+  padding-top: 1rem !important;
   justify-content: center !important;
   text-align: center !important;
 }
@@ -87,6 +93,6 @@ body .slide_wrapper > .slide { justify-content: flex-start !important; }
   right: -35%;
   width: 100%;
   height: 50rem;
-  font-size: 54rem;
+  font-size: 50rem;
   color: #fff;
 }
